@@ -158,7 +158,7 @@ header .title span {
     height: 14vh;
     padding: 10px;
     border-radius: 30px;
-    transition: 5s;
+    transition: 3s;
     cursor: pointer;
     overflow: hidden;
 }
