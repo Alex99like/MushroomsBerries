@@ -26,11 +26,17 @@ header::before {
     bottom: -10vh;
     height: 10vh;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(15, 15, 15) 19%, rgba(36,36,36,0.6294163845314964) 51%, rgba(0,0,0,0));
+    background: linear-gradient(to bottom, rgba(15, 15, 15, 1) 10%, rgba(36,36,36,0.5) 60%, rgba(0,0,0,0.2) 80%, rgba(0,0,0,0));
 }
 
 header .title {
     color: #fff;
+}
+
+header .title span {
+    font-size: 1.3em;
+    transform: translate(-3px ,8px);
+    color: rgb(97, 0, 0);
 }
 
 .container {
@@ -43,6 +49,22 @@ header .title {
     background: url('./img/forest.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.main p {
+    display: flex;
+    position: absolute;
+    max-width: 100%;
+    margin: 28vh 13vw 0;
+    padding: 8vh 4vw;
+    text-align: center;
+    border: 2px solid;
+    justify-content: center;
+    font-family: 'Macondo', cursive;
+    background: rgba(0 , 0, 0, 0.5);
+    color: #fff;
+    border-radius: 40px;
+    line-height: 30px;
 }
 
 .main button {
@@ -59,7 +81,14 @@ header .title {
     align-items: center;
     color: #fff;
     letter-spacing: 3px;
-    font-family: 'Macondo', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    transition: .3s;
+}
+
+.main button:hover {
+    background-color: #fff;
+    color: black;
 }
