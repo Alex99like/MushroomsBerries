@@ -105,7 +105,7 @@ header .title span {
 
 .product {
     width: 100%;
-    padding: 50px 0 0;
+    padding: 50px 0 100px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -124,7 +124,7 @@ header .title span {
 }
 
 .title-product {
-    margin: 25px auto 0;
+    margin: 85px auto 50px;
     position: relative;
     color: #fff;
     text-align: center;
@@ -159,6 +159,8 @@ header .title span {
     border-radius: 30px;
 }
 
+/* //////////////////////////////////////////////////////// */
+
 .blueberries {
     background-image: url('./img/blueberries.jpg');
     background-size: cover;
@@ -177,5 +179,28 @@ header .title span {
 
 .cranberry {
     background-image: url('./img/cranberry.jpg');
+    background-size: cover;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+.chanterelle {
+    background-image: url('./img/chanterelle.jpg');
+    background-size: cover;
+}
+
+.honeydew {
+    background-image: url('./img/honeydew.jpg');
+    background-size: cover;
+}
+
+
+.podosinoviki {
+    background-image: url('./img/podosinoviki.jpg');
+    background-size: cover;
+}
+
+.rawfood {
+    background-image: url('./img/rawfood.JPG');
     background-size: cover;
 }
