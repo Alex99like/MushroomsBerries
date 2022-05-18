@@ -148,6 +148,7 @@ header .title span {
 }
 
 .product .box {
+    position: relative;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
     font-family: 'Macondo', cursive;
@@ -157,7 +158,57 @@ header .title span {
     height: 14vh;
     padding: 10px;
     border-radius: 30px;
+    transition: 5s;
+    cursor: pointer;
+    overflow: hidden;
 }
+
+.box.active {
+    height: 60vh;
+    font-size: 30px;
+}
+
+.price {
+    position: absolute;
+    text-shadow: 0 0 20px rgba(0, 0, 0);
+    width: 75vw;
+    align-items: center;
+    transform: translateX(-500px);
+    transition: 1s;
+    margin-top: 130px;
+}
+
+.price button {
+    display: block;
+    width: 50vw;
+    height: 60px;
+    margin: 100px auto;
+    border-radius: 50px;
+    background:rgb(15, 15, 15, 0);
+    border: 4px solid #fff;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Macondo', cursive;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: 0 0 20px rgba(0, 0, 0);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.price.active {
+    transform: translateX(0px);
+}
+
+.price button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
 
 /* //////////////////////////////////////////////////////// */
 
