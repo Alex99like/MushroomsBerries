@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 1em;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    bottom: -6vh;
+    height: 6vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 19%, rgba(36,36,36,0.6294163845314964) 51%, rgba(0,0,0,0));
+}
+
+header .title {
+    color: #fff;
+}
+
+.container {
+    position: relative;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: url('./img/forest.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main button {
+    width: 60vw;
+    height: 50px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    bottom: -83vh;
+    background:rgb(15, 15, 15, 0);
+    border: 4px solid #fff;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Macondo', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
